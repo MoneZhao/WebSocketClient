@@ -22,7 +22,7 @@ public class WebSocketClientApp {
     try {
       //focus on onMessage() method;
       WebSocketClient webSocketClient = new WebSocketClient(
-          new URI("ws://10.1.5.100:4726/usrtable?appId=lianshidemo&key=igTxUbVN9V&secret=gJl3oWMJSqradOZjFe3xh7RuMhLpHasP")
+          new URI("ws://localhost:4726/usrtable?appId=lianshidemo&key=igTxUbVN9V&secret=gJl3oWMJSqradOZjFe3xh7RuMhLpHasP")
       ) {
         @Override
         public void onOpen(ServerHandshake serverHandshake) {
